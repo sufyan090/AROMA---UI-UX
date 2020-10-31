@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- TAILWIND CSS LINK -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- GOOGLE FONTS LINK -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS LINK -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- CUSTOM CSS LINK 2 -->
+    <link rel="stylesheet" href="../css/shoppingcart.css">
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <div class="dropdown-menu fade-up" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="category.html">Shop Category</a>
+                            <a class="dropdown-item" href="productsingle.html">Product Details</a>
+                            <a class="dropdown-item" href="checkout.html">Product Checkout</a>
+                            <a class="dropdown-item" href="orderconfirm.html">Confirmation</a>
+                            <a class="dropdown-item" href="shoppingcart.html">Shopping Cart</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <div class="dropdown-menu fade-up" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Blog</a>
+                            <a class="dropdown-item" href="#">Blog Details</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu fade-up" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="login.html">Login</a>
+                            <a class="dropdown-item" href="#">Register</a>
+                            <a class="dropdown-item" href="#">Tracking</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <div class="right">
+                        <div class="search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="cart">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"><sup>3</sup></i>
+                        </div>
+                        <div class="buynow-button">
+                            <button type="button" class="buy-now buy-now2">Buy Now</button>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <div class="category-heading">
+        <div class="container">
+            <h1>Shopping Cart</h1>
+            <a href="../index.html">Home - <span>Shopping Cart</span></a>
+        </div>
+    </div>
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+    <div class="shopping-cart-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-3 heading-section">
+                    <h1>Product</h1>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-3 heading-section">
+                    <h1>Price</h1>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-3 heading-section">
+                    <h1>Quantity</h1>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-3 heading-section">
+                    <h1>Total</h1>
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-3">
+                    <div class="product-image">
+                        <img src="../images/cart1.png" alt="">
+                        <p>Minimalistic shop for multipurpose use</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="price">
+                        <p>$360.00</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="quantity">
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="total">
+                        <p>$720.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-3">
+                    <div class="product-image">
+                        <img src="../images/cart2.png" alt="">
+                        <p>Minimalistic shop for multipurpose use</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="price">
+                        <p>$360.00</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="quantity">
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="total">
+                        <p>$720.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-3">
+                    <div class="product-image">
+                        <img src="../images/cart3.png" alt="">
+                        <p>Minimalistic shop for multipurpose use</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="price">
+                        <p>$360.00</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="quantity">
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="total">
+                        <p>$720.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="update-cart">
+                        <button type="button">Update Cart</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="coupon-code">
+                        <button type="button">Coupon Code</button>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6">
+                    <div class="apply">
+                        <button type="button">Apply</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="have-coupon">
+                        <button type="button">Have a Coupon?</button>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-9">
+                    <div class="subtotal">
+                        <p>Subtotal</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3">
+                    <div class="sub-amount">
+                        <p>$2160.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-9 col-md-8 col-6">
+                    <div class="shipping">
+                        <p>Shipping</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="requirements">
+                        <p>Flat Rate: $5.00</p> <span><input type="radio"></span>
+                        <p>Free Shipping</p> <span><input type="radio"></span>
+                        <p>Flat Rate: $10.00</p> <span><input type="radio"></span>
+                        <p class="local-delivery">Local Delivery: $2.00</p> <span><input type="radio"></span>
+                        <p class="calculate">Calculate Shipping</p> <span><i class="fa fa-chevron-down"
+                                aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="country">
+                        <select>
+                            <option>Pakistan</option>
+                            <option>China</option>
+                            <option>Bangladesh</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                    <div class="state">
+                        <select>
+                            <option>Select a State</option>
+                            <option>Select a State</option>
+                            <option>Select a State</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                    <div class="post-zip">
+                        <input type="text" placeholder="Postcode/Zipcode">
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                    <div class="update-details">
+                        <button type="button">Update Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-9 col-md-8">
+                    <div class="continue-shop">
+                        <button type="button">Continue Shopping</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="proceed">
+                        <button type="button">Proceed To Checkout</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+    <div class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="our-mission">
+                        <h4>Our Mission</h4>
+                        <p>So seed seed green that winged cattle in. Gathering thing made fly you're no divided
+                            deep
+                            moved us lan Gathering thing us land years living.
+                        </p>
+                        <br>
+                        <p>So seed seed green that winged cattle in. Gathering thing made fly you're no divided
+                            deep
+                            moved
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="quick-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Product</a></li>
+                            <li><a href="">Brand</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="gallery">
+                        <h4>Gallery</h4>
+                        <ul class="gallery-images">
+                            <li class="show-image">
+                                <img src="../images/footer-gallery1.webp" alt="">
+                            </li>
+                            <li class="show-image">
+                                <img src="../images/footer-gallery2.webp" alt="">
+                            </li>
+                            <li class="show-image">
+                                <img src="../images/footer-gallery3.webp" alt="">
+                            </li>
+                            <li class="hide-image">
+                                <img src="../images/footer-gallery4.webp" alt="">
+                            </li>
+                            <li class="hide-image">
+                                <img src="../images/footer-gallery5.webp" alt="">
+                            </li>
+                            <li class="hide-image">
+                                <img src="../images/footer-gallery6.webp" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <div class="footer-contact-list">
+                            <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                            <span>Head Office</span>
+                            <p>123, Main Street, Your City</p>
+                        </div>
+
+                        <div class="footer-contact-list2">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span>Phone Number</span>
+                            <p>+123 456 7890</p>
+                            <p>+123 456 7890</p>
+                        </div>
+
+                        <div class="footer-contact-list3">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span>Email</span>
+                            <p>free@infoexample.com</p>
+                            <p>www.infoexample.com</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+    <script src="../js/jquery-1.12.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+.category-heading {
+    width: 100%;
+    background-color: #f1f6f7;
+    padding: 150px 0;
+}
+
+.category-heading h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.category-heading a {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.category-heading a:hover {
+    color: black;
+}
+
+.category-heading span {
+    cursor: text;
+    font-family: 'Poppins', sans-serif;
+}
+
+.category-heading span:hover {
+    color: #007Bff;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+.login-section{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.login-section .left-side{
+    color: #fff;
+    text-align: center;
+    background-color: #384aeb;
+    padding: 200px 50px;
+}
+.login-section .left-side h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.login-section .left-side p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+.login-section .left-side button{
+    border: 1px solid #fff;
+    padding: 8px 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-radius: 50px;
+}
+.login-section .right-side{
+    padding-top: 100px;
+    background-color: yellow;
+    margin-left: -30px;
+}
+.login-section .right-side h1{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.login-section .right-side form{
+    padding: 20px 50px;
+}
+.login-section .right-side form input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+}
